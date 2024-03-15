@@ -1,0 +1,22 @@
+# EVM Wallet Configuration
+wallet:
+  name: "My EVM Wallet"
+  description: "This is an Ethereum wallet for managing Ethereum and ERC-20 tokens."
+  type: "Software Wallet"
+  network: 
+    name: "Ethereum Mainnet"
+    rpc_endpoint: "https://mainnet.infura.io/v3/your_infura_project_id"
+  address: "Your Ethereum wallet address"
+  keys:
+    private: "Your encrypted private key"
+    public: "Your public key"
+  security:
+    passphrase: "Your passphrase"
+    encrypted: true
+  backup:
+    location: "Secure offline storage"
+    instructions: "Keep this backup in a secure location, preferably offline, to prevent unauthorized access."
+  notes: |
+    This wallet is encrypted using industry-standard encryption algorithms.
+    Remember to keep your passphrase safe and never share your private keys.
+    Regularly back up your wallet and store backups securely.
